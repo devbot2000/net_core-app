@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\PDFFile\\Alum311.pdf",
+      "PackagePath": "staticwebassets\\PDFFile\\Alum311.pdf"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\PDFFile\\Alum490.pdf",
+      "PackagePath": "staticwebassets\\PDFFile\\Alum490.pdf"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\PDFFile\\Alum514.pdf",
+      "PackagePath": "staticwebassets\\PDFFile\\Alum514.pdf"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstraps\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\bootstraps\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\bootstraps\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\bootstraps\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\bootstraps\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\bootstraps\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstraps\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstraps\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\js\\jquery-1.9.1.js",
+      "PackagePath": "staticwebassets\\bootstraps\\js\\jquery-1.9.1.js"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\js\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\bootstraps\\js\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\bootstraps\\js\\npm.js",
+      "PackagePath": "staticwebassets\\bootstraps\\js\\npm.js"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\js\\Tls.css",
+      "PackagePath": "staticwebassets\\js\\Tls.css"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\js\\Tls.js",
+      "PackagePath": "staticwebassets\\js\\Tls.js"
+    },
+    {
+      "Id": "D:\\MisDocs\\PROYECTOS\\CS-AppWebCORE\\NETCORE_ALUM\\wwwroot\\js\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NETCORE_ALUM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NETCORE_ALUM.props",
+      "PackagePath": "build\\NETCORE_ALUM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NETCORE_ALUM.props",
+      "PackagePath": "buildMultiTargeting\\NETCORE_ALUM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NETCORE_ALUM.props",
+      "PackagePath": "buildTransitive\\NETCORE_ALUM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

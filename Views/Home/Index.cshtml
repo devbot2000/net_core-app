@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>REGISTRO DE ALUMNOS[ASP.NET CORE 8]</title>
+    <link href="~/js/Tls.css" rel="stylesheet" type="text/css" />
+    <script src="~/js/Tls.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        window.onload = SPLdTblMN;
+    </script>
+</head>
+<body>
+    <div>
+
+        <table id="TblMn" width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top" width="5%">
+                    MENU [ASP.NET CORE 8]<br />
+                    <a href="@Url.Action("Index", "Inicio")" target="FrmMn">Inicio</a><br />
+                    <a href="@Url.Action("Index", "Alumno")" target="FrmMn">Nuevo Alumno</a><br />
+                    <a href="@Url.Action("Index", "RepXEdo")" target="FrmMn">Reportes por Estado</a><br />
+                </td>
+                <td id="TD1" width="95%" height="92%" valign="top">
+                    <iframe id="FrmMn" name="FrmMn" src="@Url.Action("Index", "Inicio")" frameborder="0" scrolling="auto"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td height="8%" align="center" valign="middle" class="ColorBg" colspan="2">
+                    <label class="FtoFootI">Derechos Reservados @Html.Raw(DateTime.Now.Year) &copy;</label>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

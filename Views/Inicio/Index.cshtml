@@ -1,0 +1,42 @@
+﻿@model NETCORE_ALUM.Models.Alumno
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/bootstraps/css/bootstrap.min.css" asp-append-version="true" />
+    <script src="~/bootstraps/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/bootstraps/js/jquery-3.5.1.min.js" asp-append-version="true"></script>
+    <script src="~/js/Tls.js" asp-append-version="true"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta de Alumnos</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nombre(s)</th>
+                    <th>Apellidos</th>
+                    <th>Actualizar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody> 
+                @foreach (var alumno in Model.IEnumAlumnos)
+                {
+                    <tr>
+                        <td>@alumno.WNom</td>
+                        <td>@alumno.WApe</td>
+                        <td><a href="Alumno/Actualizar?IDAlum=@alumno.IDAlum">Actualizar</a></td>
+                        <td><a href="Alumno/Borrar?IDAlum=@alumno.IDAlum">Borrar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

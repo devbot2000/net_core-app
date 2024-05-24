@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\MisDocs\PROYECTOS\CS-AppWebCORE\PUBLICAR</_PublishTargetUrl>
+    <History>True|2024-05-08T01:01:15.7325346Z;True|2024-05-07T18:56:48.9750142-06:00;True|2024-05-07T18:49:43.8777739-06:00;True|2024-04-11T18:27:36.9750167-06:00;True|2024-04-11T18:11:26.0026131-06:00;True|2024-04-11T18:07:18.3916369-06:00;True|2024-04-09T12:38:57.0515095-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="REPORT/DBSP.mdb">
+      <publishTime>05/22/2023 23:51:26</publishTime>
+    </File>
+    <File Include="REPORT/Report1.rdlc">
+      <publishTime>03/25/2021 18:56:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

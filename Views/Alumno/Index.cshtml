@@ -1,0 +1,45 @@
+﻿@model NETCORE_ALUM.Models.Alumno
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Nuevo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="~/bootstraps/css/bootstrap.min.css" asp-append-version="true" />
+    <script src="~/bootstraps/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/bootstraps/js/jquery-3.5.1.min.js" asp-append-version="true"></script>
+    <script src="~/js/Tls.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        function FNGuardar() {
+            var WAction = "";
+            gEBI("Frm").action = "@Url.Action("Guardar", "Alumno")"; gEBI("Frm").method = "post";
+            gEBI("Frm").submit();
+        }
+    </script>
+</head>
+<body>
+    <form id="Frm" name="Frm">
+        <div class="container">
+            <h2>Registro de Alumnos</h2>
+            <div class="form-group">
+                <label for="sel1">Nombre(s):</label>
+                <input type="text" id="txtNombre" name="txtNombre" value="@Model.WNom" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="sel1">Apellidos:</label>
+                <input type="text" id="txtApe" name="txtApe" value="@Model.WApe" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="GastoEsp">Estado:</label>
+                @Html.DropDownListFor(m => m.IDEst, Model.Estados, "-- Selecciona una opción --", new { @class = "form-control", @id = "cbxEstados" })
+            </div>
+            <input type="button" id="btnSave" name="btnSave" value="Guardar" onclick="FNGuardar();" class="button" />
+        </div>
+        <input type="hidden" id="HDIDAlum" name="HDIDAlum" value="@Model.IDAlum" />
+    </form>
+</body>
+</html>
